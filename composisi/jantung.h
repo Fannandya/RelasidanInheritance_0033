@@ -1,4 +1,4 @@
-#ifdef JANTUNG_H
+#ifndef JANTUNG_H
 #define JANTUNG_H
 
 using namespace std;
@@ -14,4 +14,5 @@ public:
     {
         cout << "jantung dimatikan\n";
     }
-}
+};
+#endif
